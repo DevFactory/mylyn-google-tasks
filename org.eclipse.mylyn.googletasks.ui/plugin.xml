@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.mylyn.tasks.ui.repositories">
+      <connectorCore
+            class="org.eclipse.mylyn.internal.googletasks.ui.RepositoryConnector"
+            id="org.eclipse.mylyn.internal.googletasks.ui.RepositoryConnector"
+            name="Google Tasks Connector">
+      </connectorCore>
+      <connectorUi
+            brandingIcon="icons/obj16/tasks.png"
+            class="org.eclipse.mylyn.internal.googletasks.ui.RepositoryConnectorUi"
+            id="org.eclipse.mylyn.internal.googletasks.ui.RepositoryConnectorUi"
+            name="Google Tasks Connector UI">
+      </connectorUi>
+   </extension>
+
+</plugin>
