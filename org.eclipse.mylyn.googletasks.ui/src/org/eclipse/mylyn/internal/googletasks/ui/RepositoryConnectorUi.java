@@ -37,8 +37,7 @@ public class RepositoryConnectorUi extends AbstractRepositoryConnectorUi {
 
 	@Override
 	public ITaskRepositoryPage getSettingsPage(TaskRepository taskRepository) {
-		// TODO Auto-generated method stub
-		return null;
+		return new RepositorySettingsPage(taskRepository);
 	}
 
 	@Override
