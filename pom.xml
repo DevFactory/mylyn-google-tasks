@@ -42,7 +42,7 @@
 
 	<repositories>
 		<repository>
-			<id>indigo</id>
+			<id>${platform-version-name}</id>
 			<layout>p2</layout>
 			<url>${eclipse-site}</url>
 		</repository>
@@ -92,7 +92,7 @@
 				<plugin>
 					<artifactId>maven-resources-plugin</artifactId>
 					<configuration>
-						<encoding>ISO-8859-1</encoding>
+						<encoding>UTF-8</encoding>
 					</configuration>
 				</plugin>
 			</plugins>
