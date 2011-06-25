@@ -8,9 +8,9 @@
 		<artifactId>org.eclipse.mylyn.googletasks.parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>org.eclipse.mylyn.googletasks.ui</artifactId>
+	<artifactId>org.eclipse.mylyn.googletasks.core</artifactId>
 	<packaging>eclipse-plugin</packaging>
-	<name>Google Tasks UI Plug-in</name>
+	<name>Google Tasks Core Plug-in</name>
 
 	<build>
 		<plugins>
