@@ -9,7 +9,7 @@
 
 	<groupId>org.eclipse.mylyn.googletasks</groupId>
 	<artifactId>org.eclipse.mylyn.googletasks.parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0.qualifier</version>
 	<packaging>pom</packaging>
 	<name>Google Tasks Parent</name>
 

@@ -1,7 +1,19 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Mylyn Google Tasks Core
-Bundle-SymbolicName: org.eclipse.mylyn.googletasks.core
+Bundle-Name: Google Tasks Core Plug-in
+Bundle-SymbolicName: org.eclipse.mylyn.googletasks.core;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Christian Trutz
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: .,
+ google-api-client-1.4.1-beta.jar,
+ google-api-client-googleapis-1.4.1-beta.jar,
+ google-api-services-tasks-v1-1.0.0-beta.jar,
+ jsr305-1.3.9.jar,
+ guava-r09.jar,
+ commons-codec-1.3.jar,
+ commons-logging-1.1.1.jar,
+ junit-4.8.2.jar,
+ httpclient-4.0.3.jar,
+ httpcore-4.0.1.jar,
+ xpp3-1.1.4c.jar
