@@ -21,9 +21,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.google.api.services.tasks</groupId>
-			<artifactId>google-api-services-tasks-v1</artifactId>
-			<version>1.0.0-beta</version>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-tasks</artifactId>
+			<version>v1-1.3.0-beta</version>
 		</dependency>
 	</dependencies>
 
